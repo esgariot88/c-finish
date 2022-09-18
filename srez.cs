@@ -14,3 +14,10 @@ secondStringArray[count] = firstStringArray[i];
 count++;
 Console.Write(secondStringArray[i] + " ");
 }
+void PrintArrayOne(string[] firstStringArray)
+{
+for (int i = 0; i < firstStringArray.Length; i++)
+{
+Console.Write(firstStringArray[i] + " ");
+}
+}
